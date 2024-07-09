@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors Game</h1>
+        <div class="wrapper">
+            <div class="comp-box">
+                <div class="comp-ans">
+                    <img id="fistAns" src="fist.png" alt="Not Found">
+                    <img id="paperAns" src="hand-paper.png" alt="Not Found">
+                    <img id="scissorsAns" src="scissors.png" alt="Not Found">
+                </div>
+                <div class="comp-profile">
+                    <img src="robot.png" alt="Not Found">
+                    <span>Computer</span>
+                </div>
+            </div>
+            <div class="user-box">
+                <div class="user-profile">
+                    <span>You</span>
+                    <img src="user.png" alt="Not Found">
+                </div>
+                <div class="user-ans">
+                    <img id="rock-btn" src="fist.png" alt="Not Found">
+                    <img id="paper-btn" src="hand-paper.png" alt="Not Found">
+                    <img id="scissors-btn" src="scissors.png" alt="Not Found">
+                </div>
+                <div class="option-box">
+                    <div class="option">
+                        <img id="fist-btn-op" src="fist.png" alt="Not Found">
+                        <span>Rock</span>
+                    </div>
+                    <div class="option">
+                        <img id="paper-btn-op" src="hand-paper.png" alt="Not Found">
+                        <span>Paper</span>
+                    </div>
+                    <div id="scissors-btn-op" class="option">
+                        <img src="scissors.png" alt="Not Found">
+                        <span>Scissors</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="result-container">
+            <div class="result">
+               
+                <span onclick="clearPage()">X</span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
